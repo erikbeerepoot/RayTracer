@@ -1,0 +1,303 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXCopyFilesBuildPhase section */
+		0338538315EABC5000948A93 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		033370EF15EA72E50034CB63 /* Makefile */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.make; path = Makefile; sourceTree = "<group>"; };
+		033370F115EA73B60034CB63 /* Camera.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Camera.hpp; sourceTree = "<group>"; };
+		033370F215EA73B60034CB63 /* GenericTypes.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = GenericTypes.hpp; sourceTree = "<group>"; };
+		033370F315EA73B60034CB63 /* GeometricTypes.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = GeometricTypes.hpp; sourceTree = "<group>"; };
+		033370F415EA73B60034CB63 /* ImageRenderer.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = ImageRenderer.hpp; sourceTree = "<group>"; };
+		033370F515EA73B60034CB63 /* PNGImage.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = PNGImage.hpp; sourceTree = "<group>"; };
+		033370F615EA73B60034CB63 /* Scene.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Scene.hpp; sourceTree = "<group>"; };
+		033370F815EA73B60034CB63 /* Camera.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Camera.cpp; sourceTree = "<group>"; };
+		033370F915EA73B60034CB63 /* GeometricTypes.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = GeometricTypes.cpp; sourceTree = "<group>"; };
+		033370FA15EA73B60034CB63 /* ImageRenderer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ImageRenderer.cpp; sourceTree = "<group>"; };
+		033370FB15EA73B60034CB63 /* PNGImage.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = PNGImage.cpp; sourceTree = "<group>"; };
+		033370FC15EA73B60034CB63 /* Scene.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Scene.cpp; sourceTree = "<group>"; };
+		033370FF15EA795B0034CB63 /* SceneKernels.cl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.opencl; path = SceneKernels.cl; sourceTree = "<group>"; };
+		0333710015EA7CBF0034CB63 /* CameraKernels.cl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.opencl; path = CameraKernels.cl; sourceTree = "<group>"; };
+		0338538515EABC5000948A93 /* RayTracer-Mac */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "RayTracer-Mac"; sourceTree = BUILT_PRODUCTS_DIR; };
+		03789F8115ECE90200101D8B /* ComputeManager.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ComputeManager.cpp; sourceTree = "<group>"; };
+		03789F8415ECEB4C00101D8B /* ComputeManager.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = ComputeManager.hpp; sourceTree = "<group>"; };
+		03789F8715ED530D00101D8B /* AcceleratedPinholeCamera.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = AcceleratedPinholeCamera.cpp; sourceTree = "<group>"; };
+		03789F8815ED530D00101D8B /* AcceleratedPinholeCamera.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = AcceleratedPinholeCamera.hpp; path = include/AcceleratedPinholeCamera.hpp; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0338538215EABC5000948A93 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		033370BB15EA71A50034CB63 = {
+			isa = PBXGroup;
+			children = (
+				033370FE15EA795B0034CB63 /* kernels */,
+				033370F015EA73B60034CB63 /* include */,
+				033370F715EA73B60034CB63 /* src */,
+				033370EF15EA72E50034CB63 /* Makefile */,
+				033370C715EA71A50034CB63 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		033370C715EA71A50034CB63 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0338538515EABC5000948A93 /* RayTracer-Mac */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		033370F015EA73B60034CB63 /* include */ = {
+			isa = PBXGroup;
+			children = (
+				03789F8815ED530D00101D8B /* AcceleratedPinholeCamera.hpp */,
+				03789F8415ECEB4C00101D8B /* ComputeManager.hpp */,
+				033370F115EA73B60034CB63 /* Camera.hpp */,
+				033370F215EA73B60034CB63 /* GenericTypes.hpp */,
+				033370F315EA73B60034CB63 /* GeometricTypes.hpp */,
+				033370F415EA73B60034CB63 /* ImageRenderer.hpp */,
+				033370F515EA73B60034CB63 /* PNGImage.hpp */,
+				033370F615EA73B60034CB63 /* Scene.hpp */,
+			);
+			path = include;
+			sourceTree = "<group>";
+		};
+		033370F715EA73B60034CB63 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				033370F815EA73B60034CB63 /* Camera.cpp */,
+				033370F915EA73B60034CB63 /* GeometricTypes.cpp */,
+				033370FA15EA73B60034CB63 /* ImageRenderer.cpp */,
+				033370FB15EA73B60034CB63 /* PNGImage.cpp */,
+				033370FC15EA73B60034CB63 /* Scene.cpp */,
+				03789F8115ECE90200101D8B /* ComputeManager.cpp */,
+				03789F8715ED530D00101D8B /* AcceleratedPinholeCamera.cpp */,
+			);
+			path = src;
+			sourceTree = "<group>";
+		};
+		033370FE15EA795B0034CB63 /* kernels */ = {
+			isa = PBXGroup;
+			children = (
+				033370FF15EA795B0034CB63 /* SceneKernels.cl */,
+				0333710015EA7CBF0034CB63 /* CameraKernels.cl */,
+			);
+			path = kernels;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXLegacyTarget section */
+		033370E715EA723F0034CB63 /* RayTracer */ = {
+			isa = PBXLegacyTarget;
+			buildArgumentsString = "$(ACTION)";
+			buildConfigurationList = 033370E815EA723F0034CB63 /* Build configuration list for PBXLegacyTarget "RayTracer" */;
+			buildPhases = (
+			);
+			buildToolPath = /usr/bin/make;
+			dependencies = (
+			);
+			name = RayTracer;
+			passBuildSettingsInEnvironment = 1;
+			productName = RayTracer;
+		};
+/* End PBXLegacyTarget section */
+
+/* Begin PBXNativeTarget section */
+		0338538415EABC5000948A93 /* RayTracer-Mac */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0338538E15EABC5000948A93 /* Build configuration list for PBXNativeTarget "RayTracer-Mac" */;
+			buildPhases = (
+				0338538115EABC5000948A93 /* Sources */,
+				0338538215EABC5000948A93 /* Frameworks */,
+				0338538315EABC5000948A93 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "RayTracer-Mac";
+			productName = "RayTracer-Mac";
+			productReference = 0338538515EABC5000948A93 /* RayTracer-Mac */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		033370BD15EA71A50034CB63 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "Erik E. Beerepoot";
+			};
+			buildConfigurationList = 033370C015EA71A50034CB63 /* Build configuration list for PBXProject "RayTracer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 033370BB15EA71A50034CB63;
+			productRefGroup = 033370C715EA71A50034CB63 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				033370E715EA723F0034CB63 /* RayTracer */,
+				0338538415EABC5000948A93 /* RayTracer-Mac */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0338538115EABC5000948A93 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		033370CE15EA71A50034CB63 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		033370CF15EA71A50034CB63 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		033370E915EA723F0034CB63 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DEBUGGING_SYMBOLS = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		033370EA15EA723F0034CB63 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		0338538C15EABC5000948A93 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		0338538D15EABC5000948A93 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		033370C015EA71A50034CB63 /* Build configuration list for PBXProject "RayTracer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				033370CE15EA71A50034CB63 /* Debug */,
+				033370CF15EA71A50034CB63 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		033370E815EA723F0034CB63 /* Build configuration list for PBXLegacyTarget "RayTracer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				033370E915EA723F0034CB63 /* Debug */,
+				033370EA15EA723F0034CB63 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0338538E15EABC5000948A93 /* Build configuration list for PBXNativeTarget "RayTracer-Mac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0338538C15EABC5000948A93 /* Debug */,
+				0338538D15EABC5000948A93 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 033370BD15EA71A50034CB63 /* Project object */;
+}
